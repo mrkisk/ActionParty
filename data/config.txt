@@ -1,0 +1,6 @@
+Player1UP: 82
+Player1DONW: 70
+Player1RIGHT: 71
+Player1LEFT: 68
+Player1A: 83
+Player1B: 65
