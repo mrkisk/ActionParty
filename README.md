@@ -37,21 +37,20 @@ Player 3 Controls
 
 Player 4 Controls
 - @;:] Keys: Move the cursor, player.
-- S Key: Select the item, jump.
-- A Key: Rotate the item.
+- L Key: Select the item, jump.
+- K Key: Rotate the item.
 
-General Controls
-- W,S Keys: Move the cursor.
-- R Key: Retry the game.
-- T Key: Move to the title.
-
-## Configuration
-
-The [data/config.txt](./data/config.txt) specifies the key configuration, player movement capabilities, and bullet performance.
+General Controls (Player 1)
+- R,F Keys: Move the cursor.
+- S,A Key: Select the option.
 
 ## Installation and Usage
 
 Download [Processing 4.3](https://processing.org/download/) and run this sketch folder in Processing 4.3.
+
+The game is designed to be played in full-screen mode on a Full HD (1920x1080) screen. If your screen size is larger than this, please comment out the code `fullScreen();` on line 8 of [ActionParty.pde](./ActionParty.pde).
+
+Since the game uses many keys for gameplay, we strongly recommend using a controller and assigning key settings with software like [JoyToKey](https://joytokey.net/).
 
 ## Author
 * Keisuke Morita

@@ -11,8 +11,8 @@ void settings() {
 void setup() {
     noCursor();
     frameRate(60);
-    font1 = loadFont("HGSSoeiKakupoptai-200.vlw");
-    font2 = createFont("Arial", 200);
+    font1 = createFont("HGSSoeiKakupoptai", 256);
+    font2 = createFont("Arial", 256);
     imageSet();
     //debugClass();
 }
