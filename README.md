@@ -48,7 +48,7 @@ General Controls (Player 1)
 
 Download [Processing 4.3](https://processing.org/download/) and run this sketch folder in Processing 4.3.
 
-The game is designed to be played in full-screen mode on a Full HD (1920x1080) screen. If your screen size is larger than this, please comment out the code `fullScreen();` on line 8 of [ActionParty.pde](./ActionParty.pde).
+The game is designed to be played in full-screen mode on a Full HD (1920x1080) screen. If your screen size is larger than this, please set the content of [data/FullScreen.txt](./data/FullScreen.txt) to `false`.
 
 Since the game uses many keys for gameplay, we strongly recommend using a controller and assigning key settings with software like [JoyToKey](https://joytokey.net/).
 

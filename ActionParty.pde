@@ -5,7 +5,10 @@ float[] timers = new float[100];
 
 void settings() {
     size(1920, 1080);
-    fullScreen();
+    String[] lines = loadStrings("FullScreen.txt");
+    if (lines[0].equals("true")) {
+        fullScreen();
+    }
 }
 
 void setup() {
